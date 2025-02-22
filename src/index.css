@@ -1,10 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Share+Tech&family=Smooch+Sans:wght@100..900&family=Staatliches&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.staatliches-regular {
+    font-family: 'Staatliches', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .share-tech-regular {
+    font-family: 'Share Tech', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .smooch-sans- {
+    font-family: 'Smooch Sans', serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .sarabun-regular {
+    font-family: 'Sarabun', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sarabun-medium {
+    font-family: 'Sarabun', serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .sarabun-bold {
+    font-family: 'Sarabun', serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .sarabun-regular-italic {
+    font-family: 'Sarabun', serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .sarabun-medium-italic {
+    font-family: 'Sarabun', serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .sarabun-bold-italic {
+    font-family: 'Sarabun', serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .primary-c {
@@ -12,7 +71,7 @@ body {
 }
 
 .secondary-c {
-    @apply bg-[#f9f9f9]
+    @apply bg-[#fffcfc]
 }
 
 .flex-c {
@@ -24,5 +83,5 @@ body {
 }
 
 .nav-btn {
-   @apply text-[#E2F0F7] hover:border-[#E2F0F7] border-transparent border-2 px-3 py-2 rounded-xl
+   @apply text-[#E2F0F7] font-SmoochSans text-[1.25rem]
 }
